@@ -46,6 +46,7 @@
     position: absolute;
     top: 100%;
     width: 76vw;
+    z-index: 100;
 }
 
 .lista-menu__titulo, .lista-menu__item {

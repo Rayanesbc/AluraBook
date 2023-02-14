@@ -37,8 +37,16 @@
 }
 
 .topicos__item:hover {
+    background-color: var(--cor-do-cabecalho);
+}
+
+.topicos__item:hover a {
+    color: var(--cor-lista-titulo);
+}
+
+.topicos__item:hover {
     transform: scale(1.1);
-    transition: all 0.5s;
+    transition: all;
 }
 
 @media screen and (min-width: 1024px) {

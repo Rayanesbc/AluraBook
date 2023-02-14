@@ -1,0 +1,76 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--cor-do-cabecalho);
+    padding: 2em;
+    color: var(--cor-preta);
+}
+
+.rodape__lista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .rodape {
+        padding: 4em 2em;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .lista__educacao {
+        grid-column: 2;
+    }
+
+    .lista__educacao-online {
+        grid-column: 3;
+    }
+
+    .lista__comunidade {
+        grid-column: 4;
+    }
+
+    .lista__titulo {
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--cor-cinza);
+        margin-bottom: 1em;
+    }
+
+    .lista__item {
+        display: flex;
+        align-items: center;
+        padding: 0.5em 0;
+        gap: 1em;
+    }
+
+    .lista__item-nome {
+        font-size: 14px;
+        text-decoration: none;
+        color: var(--cor-item-rodape);
+    }
+    
+    .lista__item-nome:hover {
+        color: var(--cor-lista-titulo);
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .rodape__lista {
+        border-left: 1px solid var(--cor-cinza);
+        padding-left: 1em;
+    }
+
+}

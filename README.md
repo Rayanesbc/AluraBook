@@ -14,12 +14,11 @@
 * [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
 * [Acesso ao Projeto](#acesso-ao-projeto)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
-* [Pessoas Contribuidoras](#pessoas-contribuidoras)
 * [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras)
 * [Licença](#licença)
 * [Conclusão](#conclusão)
   
-  
+  # Descrição do Projeto
 Projeto desenvolvido para o curso de HTML e CSS - responsividade com mobile first, realizado na plataforma Alura. O AluraBooks é um site de livros técnicos, especializado na área de tecnologia da informação.
 
 O sistema permite a compra de livros físicos e virtuais, o acompanhamento de lançamentos, de autores e promoções. :books:
@@ -35,6 +34,6 @@ O sistema permite a compra de livros físicos e virtuais, o acompanhamento de la
 
 Você pode acessar o código fonte do projeto final [aqui](https://github.com/Rayanesbc/AluraBook).
 
-  # tecnologias-utilizadas
+  # Tecnologias utilizadas
   * HTML5
   * CSS3

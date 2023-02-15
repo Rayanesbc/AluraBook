@@ -20,4 +20,7 @@
 * [Licença](#licença)
 * [Conclusão](#conclusão)
   
-  Projeto do curso HTML e CSS responsividade com mobile first
+  
+Projeto desenvolvido para o curso de HTML e CSS - responsividade com mobile first, realizado na plataforma Alura. O AluraBooks é um site de livros técnicos, especializado na área de tecnologia da informação.
+
+O sistema permite a compra de livros físicos e virtuais, o acompanhamento de lançamentos, de autores e promoções. :books:
